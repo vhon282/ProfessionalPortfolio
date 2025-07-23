@@ -1,0 +1,76 @@
+Create a professional website portfolio based on the provided resume for April Shyne Palacios. The portfolio should highlight her skills and experience as an IT Specialist, aiming to impress potential employers.
+
+Key Sections to Include:
+
+Home/About Me:
+
+A concise and engaging summary of April Shyne Palacios as a versatile IT Support professional with 5+ years of experience in technical problem resolution and customer assistance.
+
+Emphasize her adeptness at software and hardware troubleshooting, network installation, and maintaining optimal system performance and security.
+
+Include her contact information: vhonho28@gmail.com, 0993325362, Blk 10 lot 38 Summercrest Subd.
+
+Link to her LinkedIn profile: 
+
+https://www.linkedin.com/in/april-shyne-palacios-a763052a7.
+
+Potentially integrate a professional headshot.
+
+Experience:
+
+Showcase each role with a brief description of responsibilities and achievements, drawing directly from the resume:
+
+
+Content Moderator at Appen Services Philippines-Imus (April 2024 - Present): Highlight consistency maintenance in content quality and handling sensitive content.
+
+
+Virtual Assistant / Social Media Manager at Brown County Vacation Rental-Nashville, TN (December 2023 - April 2024): Emphasize developing and managing content calendars, spearheading successful social media campaigns (resulting in a 25% increase in engagement), and website content management.
+
+
+IT Supervisor at Tristellar Trading Corporation-Tanza, Cavite (February 2021 - December 2023): Detail responsibilities such as managing and developing IT teams, overseeing IT infrastructure (security, performance, disaster recovery), leading IT projects (managing budgets, resources, implementation), developing and enforcing IT policies, providing advanced technical support, and managing vendor relationships and contracts.
+
+Skills:
+
+Create a prominent section for her skills, categorizing them logically for easy readability. Include:
+
+Organizational & Vendor Management 
+
+Data & Content Management 
+
+Technical Problem Resolution 
+
+System Performance & Security 
+
+Network Management & Installation 
+
+Microsoft Office & Administrative Skills 
+
+Customer Assistance 
+
+Team Leadership & Project Management 
+
+Hardware & Software Proficiency 
+
+IT Support & Troubleshooting 
+
+Education/Certifications:
+
+List her educational background and certifications:
+
+Training in CCNA Certification in Computer Networking at CNCTC, Inc. (January 2023) with a GPA of 3.95/4.0 and experience as a Research Assistant in Machine Learning Lab.
+
+
+Vocational in Computer Technician in Computer Technology at Cavite City Tech School-Cavite, Cavite (June 2008 - November 2008), highlighting her skills in hardware maintenance, software troubleshooting, and technical support.
+
+
+Image Generation Request:
+
+For each of the main sections (About Me, Experience, Skills, Education), generate an image that visually represents the content. These images should be professional, relevant, and enhance the overall aesthetic of the portfolio. Examples include:
+
+About Me: A clean, professional graphic that conveys IT support, problem-solving, or system optimization.
+
+Experience: For each role, a small icon or graphic that relates to the specific industry or task (e.g., for Content Moderator, an icon related to content review; for IT Supervisor, an icon related to network infrastructure or team management; for Virtual Assistant, an icon related to social media or remote work).
+
+Skills: A visual representation of various IT skills, perhaps an infographic-style image that combines multiple elements like gears, network connections, security shields, or customer support symbols.
+
+Education/Certifications: An image related to learning, certification, or computer networking.
