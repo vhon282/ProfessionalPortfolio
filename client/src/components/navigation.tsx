@@ -20,8 +20,9 @@ export default function Navigation() {
       const scrollPosition = window.scrollY + 100;
 
       sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionBottom = sectionTop + section.offsetHeight;
+        const htmlSection = section as HTMLElement;
+        const sectionTop = htmlSection.offsetTop;
+        const sectionBottom = sectionTop + htmlSection.offsetHeight;
         const sectionId = section.getAttribute("id");
 
         if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
