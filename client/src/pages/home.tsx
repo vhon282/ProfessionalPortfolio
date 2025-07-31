@@ -19,7 +19,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container-max text-center">
           <p className="text-gray-400">
-            &copy; 2024 April Shyne Palacios. Professional IT Specialist Portfolio.
+            &copy; 2024 April Shyne Palacios. IT Specialist - Bringing 5+ years of technical expertise to every challenge.
           </p>
         </div>
       </footer>

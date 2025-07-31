@@ -3,25 +3,25 @@ import { Card } from "@/components/ui/card";
 const educationData = [
   {
     title: "CCNA Certification Training",
+    field: "Computer Networking",
     institution: "CNCTC, Inc.",
-    period: "January 2023",
+    period: "January 2023 - January 2023",
     gpa: "3.95/4.0",
-    specialization: "Computer Networking",
     research: "Machine Learning Lab Research Assistant - Gained hands-on experience in cutting-edge technology research and implementation.",
     image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
     imageAlt: "Computer Networking Certification",
     gradient: "from-primary/5 to-accent/5",
   },
   {
-    title: "Computer Technician Certification",
+    title: "Vocational in Computer Technician",
+    field: "Computer Technology",
     institution: "Cavite City Tech School",
     period: "June 2008 - November 2008",
     location: "Cavite, Cavite",
-    field: "Computer Technology",
     competencies: [
       "Hardware maintenance and repair",
       "Software troubleshooting and installation",
-      "Technical support and customer service",
+      "Providing technical support and customer service",
       "System diagnosis and optimization",
     ],
     image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
@@ -83,11 +83,11 @@ export default function EducationSection() {
                   </div>
                 )}
 
-                {education.specialization && (
+                {education.field && (
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Specialization:</span>
+                    <span className="text-gray-600">Field:</span>
                     <span className="font-semibold text-gray-900">
-                      {education.specialization}
+                      {education.field}
                     </span>
                   </div>
                 )}
@@ -97,15 +97,6 @@ export default function EducationSection() {
                     <span className="text-gray-600">Location:</span>
                     <span className="font-semibold text-gray-900">
                       {education.location}
-                    </span>
-                  </div>
-                )}
-
-                {education.field && (
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Field:</span>
-                    <span className="font-semibold text-gray-900">
-                      {education.field}
                     </span>
                   </div>
                 )}
@@ -124,7 +115,7 @@ export default function EducationSection() {
                 {education.competencies && (
                   <>
                     <h5 className="font-semibold text-gray-900 mb-2">
-                      Core Competencies:
+                      Skills Developed:
                     </h5>
                     <ul className="text-gray-600 text-sm space-y-1">
                       {education.competencies.map((competency, compIndex) => (

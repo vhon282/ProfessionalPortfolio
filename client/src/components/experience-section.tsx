@@ -4,16 +4,28 @@ const experiences = [
   {
     title: "Content Moderator",
     company: "Appen Services Philippines - Imus",
+    location: "Imus, Philippines",
     period: "April 2024 - Present",
-    description: "Maintaining consistency in content quality and expertly handling sensitive content across multiple platforms. Ensuring adherence to community guidelines while providing detailed analysis and reporting on content compliance metrics.",
+    responsibilities: [
+      "Consistency maintenance in content quality across multiple platforms",
+      "Expert handling of sensitive content with attention to detail",
+      "Ensuring adherence to community guidelines and platform policies",
+      "Providing detailed analysis and reporting on content compliance metrics"
+    ],
     image: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
     imageAlt: "Content Moderation Workspace",
   },
   {
     title: "Virtual Assistant / Social Media Manager",
     company: "Brown County Vacation Rental - Nashville, TN",
+    location: "Nashville, TN (Remote)",
     period: "December 2023 - April 2024",
-    description: "Developed and managed comprehensive content calendars while spearheading successful social media campaigns that resulted in a 25% increase in engagement. Managed website content and coordinated marketing initiatives across multiple digital platforms.",
+    responsibilities: [
+      "Developed and managed comprehensive content calendars",
+      "Spearheaded successful social media campaigns resulting in 25% increase in engagement",
+      "Managed website content and coordinated marketing initiatives",
+      "Coordinated marketing initiatives across multiple digital platforms"
+    ],
     achievement: "25% increase in social media engagement",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
     imageAlt: "Social Media Management",
@@ -21,8 +33,16 @@ const experiences = [
   {
     title: "IT Supervisor",
     company: "Tristellar Trading Corporation - Tanza, Cavite",
+    location: "Tanza, Cavite, Philippines",
     period: "February 2021 - December 2023",
-    description: "Led comprehensive IT operations including team management and development, infrastructure oversight (security, performance, disaster recovery), and project leadership with budget and resource management. Developed and enforced IT policies while providing advanced technical support and managing vendor relationships.",
+    responsibilities: [
+      "Managed and developed IT teams across multiple departments",
+      "Oversaw IT infrastructure including security, performance, and disaster recovery",
+      "Led IT projects with comprehensive budget and resource management",
+      "Developed and enforced IT policies and procedures",
+      "Provided advanced technical support to all organizational levels",
+      "Managed vendor relationships and contract negotiations"
+    ],
     highlights: ["Team Leadership", "Infrastructure Management"],
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
     imageAlt: "IT Infrastructure Management",
@@ -58,9 +78,21 @@ export default function ExperienceSection() {
                   <h4 className="text-lg font-semibold text-gray-700 mb-4">
                     {experience.company}
                   </h4>
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    {experience.description}
-                  </p>
+                  {experience.location && (
+                    <p className="text-gray-500 mb-4">{experience.location}</p>
+                  )}
+                  
+                  <div className="mb-4">
+                    <h5 className="font-semibold text-gray-900 mb-2">Key Responsibilities:</h5>
+                    <ul className="text-gray-600 space-y-1">
+                      {experience.responsibilities.map((responsibility, respIndex) => (
+                        <li key={respIndex} className="flex items-start">
+                          <span className="text-primary mr-2 mt-1">•</span>
+                          <span>{responsibility}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
 
                   {experience.achievement && (
                     <div className="bg-accent/10 p-4 rounded-lg mb-4">
